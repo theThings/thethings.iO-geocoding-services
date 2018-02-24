@@ -4,7 +4,7 @@ At thethings.iO we usually receive the location as geographic GPS coordinates (l
 
 Thanks to the Cloud Code service, we help you to integrate third-party services that enable you to transform the data from your connected things into information that will be useful to your daily activities.
 
-In this repo you can find the functions that handle the httpRequest to the geolocation APIs of Google and OpenCage (both geocoding and inverse geocoding). You can also find two examples:
+In this repository you can find the functions that handle the http request to the geolocation APIs of Google and OpenCage (both geocoding and inverse geocoding). You can also find two examples:
 
 #### Example 1. Trigger (Inverse geocoding with Open Cage API)
 With this code every time you send data to the platform that contain location information, the trigger will be executed and we will transform the coordinates from the resource $settings.geo into a physical address. Then we will save it into the resource address. You just have to create a new trigger in the cloud-code. Then copy and paste the code.
